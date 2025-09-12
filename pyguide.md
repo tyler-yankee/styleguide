@@ -2176,10 +2176,7 @@ aptly described using a one-line docstring.
 [*Args:*](#doc-function-args)
 :   List each parameter by name. A description should follow the name, and be
     separated by a colon followed by either a space or newline. If the
-    description is too long to fit on a single
-    <span class="nondrake">80-character</span>
-    <span class="drake">79-character\*</span>
-    line, use a hanging
+    description is too long to fit on a single 80-character line, use a hanging
     indent of 2 or 4 spaces more than the parameter name (be consistent with the
     rest of the docstrings in the file). The description should include required
     type(s) if the code does not contain a corresponding type annotation. If a
